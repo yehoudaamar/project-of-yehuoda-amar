@@ -1,0 +1,111 @@
+body{
+background: rgb(209, 206, 202);
+}
+
+h1{
+margin: auto;
+text-align: center;
+font-size:50px;
+color: rgb(241, 238, 22);
+width:400px;
+border-radius:10px;
+}
+
+#login{
+font-size: 40px;
+position: relative;
+cursor: pointer;
+justify-content: center;
+margin-top:100px;
+margin-left:45px;
+width: 300px;
+height: 50px;  
+border-radius: 10px;
+/* border: 3px solid rgb(221, 199, 185); */
+background: rgb(241, 238, 22);
+}
+
+#login:hover{
+   right:  20px;
+    width: 340px;
+    height: 60px;
+    /* color: rgb(99, 228, 198); */
+    border: 3px solid rgb(3, 3, 3);
+}
+
+.my_form{
+position: relative;
+margin: auto;
+top: 100px;
+text-align: center;
+}
+
+#input-username{
+padding: 10px;
+height: 10px;
+width:300px;
+top: 50px;
+margin: 20px;
+}
+
+#input-password{
+padding: 10px;
+height: 10px;
+width:300px;
+top: 50px;
+margin: 20px;
+}
+
+table{
+   margin: auto;
+    text-align: center;
+    width: 100px;
+    /* border: 2px solid rgb(36, 30, 26); */
+    border-radius: 10px;
+
+}
+
+.container{
+width:400px;
+height: 600px;
+margin: auto;
+border-radius: 8px;
+padding: 20px;
+background-image:url('שיש.jpg');
+position: relative;
+top: 190px;
+}
+
+.error{
+color: rgb(243, 0, 0);
+width: 400px;
+height: 50px;
+margin: auto;
+text-align: center;
+/* background-color: rgb(240, 176, 176); */
+font-size: 48px;
+border-radius: 10px;
+/* display: none; */
+position: fixed;
+border: 2px solid rgb(243, 0, 0);
+text-shadow: rgb(233, 144, 144) 0px 0px 10px;
+
+}
+
+td{
+   font-size: 25px;
+   color: rgb(231, 218, 37);
+  width: 300px;
+}
+
+td:hover{
+cursor: pointer;
+
+   color: rgb(19, 5, 5);
+/* border: 0.1px solid rgb(14, 13, 13); */
+border-radius: 5px;
+}
+
+
+
+
